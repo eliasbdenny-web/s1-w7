@@ -8,6 +8,7 @@ public class Weight{
         if (pounds > 0){
           this.pounds = pounds;
         }
+    }
         public Weight(int ounces){
           this(ounces,0);
         }
@@ -29,7 +30,6 @@ public class Weight{
           return new Weight(p, o);
         }
         public void print(){
-          System.out.println(this.pounds + "pounds " + this.ounces + "ounces");
+          System.out.println(this.pounds + " pounds " + this.ounces + " ounces");
         }
     }
-}
